@@ -5,9 +5,8 @@ cv:
   location: Frankfurt am Main, GER
   image: ""
   summary: I'm a molecular biologist with over 15 years of laboratory experience, currently in the final stage of my PhD. 
-           My research drives next-generation sequencing of organellar genomes and host-associated microbiomes through whole-genome and 16S rRNA sequencing 
-           using Oxford Nanopore Technologies. As the first in my group to bring sequencing into our research, I established these workflows 
-           with Python, R, Bash and Snakemake, and run them on HPC infrastructure. 
+           My research drives next-generation sequencing of organellar genomes and host-associated microbiomes through whole-genome and 16S rRNA sequencing using 
+           Oxford Nanopore Technologies. As the first in my group to bring sequencing into our research, I established these workflows with Python, R, Bash and Snakemake, and run them on HPC infrastructure. 
            I turn complex pipelines into clear protocols that non-bioinformatic colleagues can use independently, bridging molecular biology 
            and computational analysis with a strong focus on usability and reproducibility.
 
@@ -20,26 +19,26 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 
+    city: Frankfurt am Main
+    region:
+    postalCode:
+    countryCode: GER
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: University of Mainz
+        location: Mainz, Germany
+        url: https://www.uni-mainz.de
+        area: Biology
+        studyType: Master of Science
+        start_date: 2015
+        end_date: 2018
         score: ""
-        courses: "Theory of Relativity"
+        courses: ""
         highlights:
-          - Description 1.
-          - Description 2.
+          - Thesis at Alfred Wegener Institut
+          
 
       - institution: Eidgenössische Technische Hochschule
         location: Zurich, Switzerland
