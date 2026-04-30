@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate · Molecular Biology · NGS & Bioinformatics
+subtitle: Molecular Biology · NGS & Bioinformatics
 
 profile:
   align: right
