@@ -1,5 +1,5 @@
 ---
-layout: profiles
+layout: activities
 permalink: /activities/
 title: activities
 description: members of the lab or group
