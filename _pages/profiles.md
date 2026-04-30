@@ -1,6 +1,6 @@
 ---
-layout: activities
-permalink: /activities/
+layout: profiles
+permalink: /profiles/
 title: activities
 description: members of the lab or group
 nav: true
