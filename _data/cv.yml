@@ -2,7 +2,7 @@ cv:
   name: Katrin Walter
   label: Scientist
   email: kwalter@mailbox.org
-  location: Frankfurt, GER
+  location: Frankfurt, HE
   image:
   summary: I am a molecular biologist who turns next-generation sequencing data into clean, scalable workflows. With over 15 years at the bench, I bridge wet lab and computational analysis, building pipelines and protocols that non-bioinformatic colleagues can use independently. I am constantly learning, with a strong focus on usability, reproducibility, and translating complex science into practical tools.
 
@@ -77,13 +77,12 @@ cv:
         location: Faro, Portugal
         start_date: 2021
         end_date: 2025
-        summary: 
-          - PhD funded by a competitive scholarship from the Fundação para a Ciência e a Tecnologia (FCT, Portugal)
+        summary: PhD funded by a competitive scholarship from the Fundação para a Ciência e a Tecnologia (FCT, Portugal)
         highlights:
 
       - company: PhD Preparation & Skill Building
         position: 
-        location: 
+        location: Germany, Brazil
         start_date: 2018-11
         end_date: 2021-08
         summary: Self-directed development phase, South America / Germany.
