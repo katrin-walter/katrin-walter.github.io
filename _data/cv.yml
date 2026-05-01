@@ -82,14 +82,14 @@ cv:
       - name: Sequencing Technologies
         level:
         icon: fa-solid fa-hashtag
-        keywords: "Oxford Nanopore Technologies (ONT), Illumina, Sanger; ONT library preparation, whole-genome and 16S rRNA amplicon sequencing, barcoding, multiplexing
+        keywords: "Oxford Nanopore Technologies (ONT), Illumina, Sanger; ONT library preparation, whole-genome and 16S rRNA amplicon sequencing, barcoding, multiplexing"
         
       - name: Sequencing Data Analysis — Quality Control
         level:
         icon: fa-solid fa-hashtag
         keywords: "Porechop, NanoPlot, FastQC, NanoStat"
 
-     - name: Sequencing Data Analysis — Read Mapping & Alignment
+      - name: Sequencing Data Analysis — Read Mapping & Alignment
         level:
         icon: fa-solid fa-hashtag
         keywords: "minimap2, Bowtie2, MAFFT, MUSCLE"
