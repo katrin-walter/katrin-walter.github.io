@@ -41,7 +41,7 @@ A reproducible wet-lab workflow for long-read microbiome profiling that scales f
         {% include figure.liquid path="assets/img/Bildschirmfoto 2023-11-27 um 18.47.37.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/IMG_5616.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Bildschirmfoto 2026-05-01 um 20.03.49.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
