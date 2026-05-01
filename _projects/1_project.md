@@ -5,7 +5,7 @@ description: From Sample Extraction to Sequencing
 img: assets/img/Labor_1.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Goal. 
