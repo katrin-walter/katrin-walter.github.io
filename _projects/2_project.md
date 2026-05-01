@@ -8,74 +8,45 @@ category: work
 giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Goal
+Profiling the host-associated microbiomes of marine organisms (green, red and brown macroalgae, seagrasses, mangroves) and sediment to identify the bacterial taxa that drive host growth and survival. Such "key taxa" are directly relevant for biotech applications and cultivation, where defined microbial communities can stabilise yields and improve the success of host organisms in controlled settings.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Wet lab
+Bead-based homogenisation followed by DNA extraction with the Zymo Quick-DNA kit, selected for the most time-efficient handling of large sample numbers. 16S amplification (PCR) and barcoding flowed directly into the Oxford Nanopore library preparation. In parallel, swab samples from selected hosts were used to isolate single bacterial colonies, which were amplified directly from picked colonies and sequenced by Sanger to confirm specific taxa at high resolution.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IMG_4640.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IMG_5873.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IMG_6671.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Working under sterile conditions in the laminar flow hood. Bacterial isolates in liquid media and bacterial colonies on agar plates, ready for picking and single-colony isolation.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Sequencing
+16S rRNA amplicons were barcoded and prepared for sequencing following the Oxford Nanopore protocol, then sequenced on the MinION using Flongle flow cells with 12 multiplexed samples per run. Sanger sequencing of single colonies was used as a complementary, high-confidence reference for individual isolates.
+
+### Outcome
+A reproducible wet-lab workflow for long-read microbiome profiling that scales from whole environmental samples to single bacterial colonies. The workflow delivers sequencing-ready data for identifying the bacterial taxa most relevant to host growth and survival — directly applicable to biotech production, aquaculture, and controlled cultivation. Downstream bioinformatic analysis is described in the dry-lab project.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Bildschirmfoto 2023-11-27 um 18.47.37.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/IMG_5616.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    16S rRNA amplicons, multiplexed and sequenced for 24 hours on the Oxford Nanopore MinION with Flongle flow cells (12 samples per run).
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+### Stack: 
+Oxford Nanopore (MinION, Flongle) · Sanger sequencing · 16S rRNA amplicon PCR · Zymo Quick-DNA extraction · multiplexed library preparation
