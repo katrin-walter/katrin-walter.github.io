@@ -78,21 +78,56 @@ cv:
         level:
         icon: fa-solid fa-hashtag
         keywords: "Python, R, Bash, HPC (SLURM), Snakemake, Galaxy"
-      - name: Sequencing Data Analysis
+
+      - name: Sequencing Technologies
         level:
         icon: fa-solid fa-hashtag
-        keywords: 
-           - Quality Control (Porechop, NanoPlot, FastQC, NanoStat)
-           - Read Mapping & Alignment (minimap2, Bowtie2, MAFFT, MUSCLE)
-           - Assembly (Flye, Canu, SPAdes)
-           - Annotation (HMMER, BLAST)
+        keywords: "Oxford Nanopore Technologies (ONT), Illumina, Sanger; ONT library preparation, whole-genome and 16S rRNA amplicon sequencing, barcoding, multiplexing
+        
+      - name: Sequencing Data Analysis — Quality Control
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "Porechop, NanoPlot, FastQC, NanoStat"
+
+     - name: Sequencing Data Analysis — Read Mapping & Alignment
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "minimap2, Bowtie2, MAFFT, MUSCLE"
+
+      - name: Sequencing Data Analysis — Assembly
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "Flye, Canu, SPAdes"
+
+      - name: Sequencing Data Analysis — Annotation
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "HMMER, BLAST"
+
+      - name: Sequencing Data Analysis — Variant Calling
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "bcftools, GATK, Medaka, Longshot, IGV"
+
+      - name: Sequencing Data Analysis — Metagenomics
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "NanoClass2, Kraken, QIIME2, CheckM2"
+
+      - name: Wet Lab
+        level:
+        icon: fa-solid fa-hashtag
+        keywords: "DNA/RNA extraction, primer design, PCR, cell culture, bacterial isolation and cultivation (pure and co-cultures), metabolite quantification, 1H-NMR, chromatography (HPLC, GC, TLC)"
 
     Languages:
       - name: German
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "full professional proficiency (written and spoken)"
+
+      - name: Portuguese
+        summary: "Basic (written and spoken)"
 
     Interests:
       - name: Physics
@@ -115,20 +150,14 @@ cv:
         issuer: Stanford University
         icon: fa-solid fa-envelope
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Additional:
+      - name: Timeout
+        summary:
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+        start_date: 
+        end_date: 
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: References available upon request
+        icon:
+        reference: 
