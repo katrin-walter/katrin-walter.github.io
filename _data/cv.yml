@@ -156,31 +156,33 @@ cv:
         icon: fa-solid fa-location-dot
 
     Career Note:
-      - name: Centre of Marine Sciences (CCMAR), University of Algarve
-        summary: PhD Candidate, FCT-funded scholarship
-        highlights: PhD funded by a competitive scholarship from the Fundação para a Ciência e a Tecnologia (FCT, Portugal)
-        start_date: Sep 2021
-        end_date: Aug 2025
+      - name: PhD Candidate, FCT-funded scholarship
+        summary: "Centre of Marine Sciences (CCMAR), University of Algarve"
+        highlights: 
+          - "PhD funded by a competitive scholarship from the Fundação para a Ciência e a Tecnologia (FCT, Portugal)"
+        start_date: 2021-09
+        end_date: 2025-08
         
-      - name: PhD Preparation & Skill Building (Nov 2018 – Aug 2021)
+      - name: PhD Preparation & Skill Building
         summary:
+          - "Self-directed development phase, South America / Germany."
+        highlights:
           - "Drafted proposal and application for the competitive FCT PhD funding (subsequently awarded)."
           - "Built foundational expertise in bioinformatics and genomics in preparation for the PhD."
           - "Spent 12 months in South America to deepen language skills and expand the academic network established during two earlier exchange semesters at UNESP, São Paulo."
           - "Provided family care during the COVID-19 pandemic in parallel."
-        highlights:
-        start_date: Nov 2018
-        end_date: Aug 2021
+        start_date: 2018-11
+        end_date: 2021-08
         
-      - name: Universidade Estadual Paulista (UNESP), Ilha Solteira
-        location: São Paulo, Brazil
+      - name: Visiting Researcher / Exchange Semester
         summary: 
-          - "DAAD (German Academic Exchange Service) and IAESTE scholarships (winter 2013 and 2016)"
-        highlights: 
+          - "Universidade Estadual Paulista (UNESP), Ilha Solteira, Brazil."
+        highlights:
+          - Funded by DAAD (German Academic Exchange Service) and IAESTE scholarships
           - Molecular Biology and Plant Physiology
           - Collaborated with the local fire department on studies investigating the effects of fire and heat exposure on selected plant species, including analyses using electron microscopy.
-        start_date:
-        end_date:
+        start_date: 2013-08
+        end_date: 2016-11
 
     References:
       - name: References available upon request
