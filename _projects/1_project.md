@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Goal. 
+### Goal. 
 Generate high-quality whole-genome sequencing data for the green macroalga Caulerpa as the basis for an organellar reference genome database. Caulerpa is a non-model organism with no established sequencing protocol in our group, so the entire pipeline had to be built end-to-end.
 
 <div class="row">
@@ -23,10 +23,10 @@ Generate high-quality whole-genome sequencing data for the green macroalga Caule
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+      Caulerpa is a single-celled organism that can grow over a metre in size while remaining one giant cell with multiple nuclei. Despite its unicellular nature, it forms remarkably diverse morphologies (grape-, feather-, and leaf-like) and make it a research target across biomedicine, biotech, and the food industry.
 </div>
 
-Wet lab. 
+### Wet lab. 
 Maintained live cultures under controlled temperature and light conditions, and processed silica-preserved samples from collaborators where only minimal tissue was available. DNA was extracted using a CTAB protocol that I adapted specifically for Caulerpa tissue, chosen over commercial extraction kits because CTAB removes polysaccharides and secondary metabolites typical of macroalgae far more reliably and yields the high-molecular-weight DNA that long-read sequencing requires.
 
 <div class="row">
@@ -41,10 +41,10 @@ Maintained live cultures under controlled temperature and light conditions, and 
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Wet-lab workflow: tissue homogenization, CTAB-based DNA extraction adapted for Caulerpa, followed by quality control via gel electrophoresis (fragment integrity) and Nanodrop (concentration and 260/280, 260/230 purity ratios) to ensure clean, high-molecular-weight DNA for downstream Nanopore library preparation.
 </div>
 
-Sequencing. 
+### Sequencing. 
 Library preparation and barcoding followed the Oxford Nanopore protocol; whole-genome sequencing was performed on the MinION using flow cells. Based on expected total genome size, I calculated the optimal number of samples per flow cell and scaled multiplexing from 3 to 24 barcodes per run with no loss in data quality, significantly reducing per-sample sequencing cost.
 
 <div class="row">
@@ -56,13 +56,13 @@ Library preparation and barcoding followed the Oxford Nanopore protocol; whole-g
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+   Whole-genome sequencing run on the Oxford Nanopore MinION: 10 µl of multiplexed library loaded onto a flow cell, monitored in real time via MinKNOW for pore activity, read-length distribution, and total yield over the 48-hour run.
 </div>
 
 
-Outcome. 
-A reproducible end-to-end workflow from culture to sequencing-ready data for a previously unsequenced genus, transferable to other non-model marine organisms. Downstream analysis is described in the dry-lab project.
+### Outcome. 
+A reproducible end-to-end workflow from culture to sequencing-ready data, expanding a genus for which only 13 complete chloroplast genomes are currently available worldwide. The workflow has the potential to at least double this reference base and is transferable to other non-model marine organisms.
 
 
-Stack. 
+### Stack. 
 Oxford Nanopore (MinION) · CTAB DNA extraction · multiplexed library preparation · controlled algal culturing.
