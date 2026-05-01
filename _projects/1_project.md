@@ -26,6 +26,23 @@ Generate high-quality whole-genome sequencing data for the green macroalga Caule
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
+Wet lab. 
+Maintained live cultures under controlled temperature and light conditions, and processed silica-preserved samples from collaborators where only minimal tissue was available. DNA was extracted using a CTAB protocol that I adapted specifically for Caulerpa tissue, chosen over commercial extraction kits because CTAB removes polysaccharides and secondary metabolites typical of macroalgae far more reliably and yields the high-molecular-weight DNA that long-read sequencing requires.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_6622.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_8387.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_8368.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
 
     ---
     layout: page
