@@ -29,8 +29,9 @@ cv:
         start_date: 2015
         end_date: 2018
         score: ""
-        courses: "Molecular Plant Metabolic Physiology"
-                 "Molecular Zoology"
+        courses: 
+          - "Molecular Plant Metabolic Physiology"
+          - "Molecular Zoology"
         highlights:
           - Thesis at Alfred Wegener Institut, Bremerhaven
             Validated the Cellular Energy Allocation (CEA) method for a previously unstudied organism group; demonstrated its applicability for quantifying cellular thermal stress. Presented at the SEB Conference, Florence 2018.
