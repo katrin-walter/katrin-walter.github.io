@@ -78,13 +78,14 @@ cv:
         level:
         icon: fa-solid fa-hashtag
         keywords: "Python, R, Bash, HPC (SLURM), Snakemake, Galaxy"
-
       - name: Sequencing Data Analysis
         level:
         icon: fa-solid fa-hashtag
         keywords: 
-           - "Quality Control (Porechop, NanoPlot, FastQC, NanoStat)"
-           - "Read Mapping & Alignment (minimap2, Bowtie2, MAFFT, MUSCLE)"
+           - Quality Control (Porechop, NanoPlot, FastQC, NanoStat)
+           - Read Mapping & Alignment (minimap2, Bowtie2, MAFFT, MUSCLE)
+           - Assembly (Flye, Canu, SPAdes)
+           - Annotation (HMMER, BLAST)
 
     Languages:
       - name: German
