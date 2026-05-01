@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: wet lab 16S rRNA Pipeline
+description: End-to-end 16S rRNA Nanopore workflow from sample to sequencing data.
+img: assets/img/Gemini_Generated_Image_vxbcq9vxbcq9vxbc Kopie.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
