@@ -177,16 +177,6 @@ cv:
         issuer: SPAOM 2023
         icon: fa-solid fa-location-dot
 
-    Career_Note:
-      - name: Visiting Researcher / Exchange Semester
-        summary: Universidade Estadual Paulista (UNESP), Ilha Solteira, Brazil.
-        highlights:
-          - Funded by DAAD (German Academic Exchange Service) and IAESTE scholarships
-          - Molecular Biology and Plant Physiology
-          - Collaborated with the local fire department on studies investigating the effects of fire and heat exposure on selected plant species, including analyses using electron microscopy.
-        start_date: 2013-08
-        end_date: 2016-11
-
     References:
       - name: References available upon request
         icon:
