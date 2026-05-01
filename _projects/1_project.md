@@ -31,18 +31,42 @@ Maintained live cultures under controlled temperature and light conditions, and 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IMG_6622.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IMG_8387.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IMG_8368.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Lab 2023-11-27 18hr 27min2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
+Sequencing. 
+Library preparation and barcoding followed the Oxford Nanopore protocol; whole-genome sequencing was performed on the MinION using flow cells. Based on expected total genome size, I calculated the optimal number of samples per flow cell and scaled multiplexing from 3 to 24 barcodes per run with no loss in data quality, significantly reducing per-sample sequencing cost.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_5571.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_7640.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+
+
+Outcome. 
+A reproducible end-to-end workflow from culture to sequencing-ready data for a previously unsequenced genus, transferable to other non-model marine organisms. Downstream analysis is described in the dry-lab project.
+
+
+Stack. 
+Oxford Nanopore (MinION) · CTAB DNA extraction · multiplexed library preparation · controlled algal culturing.
+
 
     ---
     layout: page
