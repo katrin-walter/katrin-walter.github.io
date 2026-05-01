@@ -2,7 +2,7 @@ cv:
   name: Katrin Walter
   label: Scientist
   email: kwalter@mailbox.org
-  location: Frankfurt am Main
+  location: Frankfurt am Main, Germany
   image: ""
   summary: I'm a molecular biologist who turns next-generation sequencing data into clean, scalable workflows. With over 15 years at the bench, I bridge wet lab and computational analysis, building pipelines and protocols that non-bioinformatic colleagues can use independently. I'm constantly learning, with a strong focus on usability, reproducibility, and translating complex science into practical tools.
 
@@ -13,10 +13,10 @@ cv:
       username: example
 
   address:
-    street: 
+    street: ""
     city: Frankfurt am Main
-    region:
-    postalCode:
+    region: ""
+    postalCode: ""
     countryCode: Germany
 
   sections:
@@ -47,6 +47,17 @@ cv:
           - Thesis at Alfred Wegener Institut, Bremerhaven
             Developed a reproducible protocol for the molecular genetic detection of soluble adenylyl cyclase (sAC) in teleosts, a key enzyme in bicarbonate metabolism. Confirmed by 87% sequence identity to reference sequences. Foundation for follow-up expression studies within the BMBF-funded BIOACID project at AWI.
 
+      - institution: State School for Technical Assistants, Frankfurt University Hospital
+        location: Frankfurt, Germany
+        area: Medical Laboratory Technician (MLT)
+        studyType: vocational training
+        start_date: 2008
+        end_date: 2012
+        highlights: 
+           - Applied regulatory standards in a clinical-diagnostic environment, including quality control, validation, and documentation.
+           - Histological processing of oncological FFPE tissue samples (embedding, microtomy, staining) as a basis for pathological diagnostics.
+           - Processed stem cell samples and performed cryopreservation of umbilical cord blood during the clinical training year.
+
     Experience:
       - company: Centre of Marine Sciences (CCMAR), University of Algarve, Group MMEB
         position: PhD Candidate
@@ -54,7 +65,7 @@ cv:
         start_date: 2021
         end_date: current
         summary: 
-          - I run end-to-end NGS workflows on Oxford Nanopore platform, rom sample to insight: building reproducible pipelines, calling variants in semi-autonomous organelles, profiling host-associated microbiomes across green algae, seagrass, mangroves and sediment, and recovering MAGs to investigate key taxa that drive host success.
+          - I run end-to-end NGS workflows on Oxford Nanopore platform, from sample to insight; building reproducible pipelines, calling variants in semi-autonomous organelles, profiling host-associated microbiomes across green algae, seagrass, mangroves and sediment, and recovering MAGs to investigate key taxa that drive host success.
         highlights:
           - Established the first end-to-end NGS pipelines in a newly formed group within 6 months and turned them into reusable protocols, cutting onboarding time for new sequencing projects.
           - Cut per-sample sequencing costs by scaling WGS multiplexing from 3 to 24 samples per flowcell with no loss in data quality.
@@ -63,10 +74,17 @@ cv:
           - Bridged molecular biology, bioinformatics and microbiology across international collaborations and supervised one Master thesis and three lab interns.
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Programming & Environments
+        level: ""
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Python, R, Bash, HPC (SLURM), Snakemake, Galaxy"
+
+      - name: Sequencing Data Analysis
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: 
+           - "Quality Control (Porechop, NanoPlot, FastQC, NanoStat)" 
+           - "Read Mapping & Alignment (minimap2, Bowtie2, MAFFT, MUSCLE)"
 
     Languages:
       - name: German
