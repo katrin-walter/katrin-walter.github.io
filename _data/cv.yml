@@ -2,7 +2,7 @@ cv:
   name: Katrin Walter
   label: Scientist
   email: kwalter@mailbox.org
-  location: Frankfurt am Main
+  location: Frankfurt
   image:
   summary: I am a molecular biologist who turns next-generation sequencing data into clean, scalable workflows. With over 15 years at the bench, I bridge wet lab and computational analysis, building pipelines and protocols that non-bioinformatic colleagues can use independently. I am constantly learning, with a strong focus on usability, reproducibility, and translating complex science into practical tools.
 
@@ -13,11 +13,11 @@ cv:
       username: example
 
   address:
-    street: ""
-    city: Frankfurt am Main
-    region: ""
-    postalCode: ""
-    countryCode: Germany
+    street:
+    city: 
+    region:
+    postalCode:
+    countryCode: 
 
   sections:
     Education:
@@ -160,23 +160,21 @@ cv:
         summary: Centre of Marine Sciences (CCMAR), University of Algarve
         highlights: 
           - PhD funded by a competitive scholarship from the Fundação para a Ciência e a Tecnologia (FCT, Portugal)
-        start_date: 2021-09
-        end_date: 2025-08
+        start_date: 2021-09-01
+        end_date: 2025-08-01
         
       - name: PhD Preparation & Skill Building
-        summary:
-          - Self-directed development phase, South America / Germany.
+        summary: Self-directed development phase, South America / Germany.
         highlights:
           - Drafted proposal and application for the competitive FCT PhD funding (subsequently awarded).
           - Built foundational expertise in bioinformatics and genomics in preparation for the PhD.
           - Spent 12 months in South America to deepen language skills and expand the academic network established during two earlier exchange semesters at UNESP, São Paulo.
           - Provided family care during the COVID-19 pandemic in parallel.
-        start_date: 2018-11
-        end_date: 2021-08
+        start_date: 2018-11-01
+        end_date: 2021-08-01
         
       - name: Visiting Researcher / Exchange Semester
-        summary: 
-          - Universidade Estadual Paulista (UNESP), Ilha Solteira, Brazil.
+        summary: Universidade Estadual Paulista (UNESP), Ilha Solteira, Brazil.
         highlights:
           - Funded by DAAD (German Academic Exchange Service) and IAESTE scholarships
           - Molecular Biology and Plant Physiology
