@@ -37,10 +37,10 @@ Bead-based homogenisation followed by DNA extraction with the Zymo Quick-DNA kit
 A reproducible wet-lab workflow for long-read microbiome profiling that scales from whole environmental samples to single bacterial colonies. The workflow delivers sequencing-ready data for identifying the bacterial taxa most relevant to host growth and survival — directly applicable to biotech production, aquaculture, and controlled cultivation. Downstream bioinformatic analysis is described in the dry-lab project.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Bildschirmfoto 2023-11-27 um 18.47.37.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/IMG_5616.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -48,5 +48,5 @@ A reproducible wet-lab workflow for long-read microbiome profiling that scales f
     16S rRNA amplicons, multiplexed and sequenced for 24 hours on the Oxford Nanopore MinION with Flongle flow cells (12 samples per run).
 </div>
 
-### Stack: 
+### Stack
 Oxford Nanopore (MinION, Flongle) · Sanger sequencing · 16S rRNA amplicon PCR · Zymo Quick-DNA extraction · multiplexed library preparation
