@@ -52,9 +52,8 @@ cv:
         position: PhD Candidate
         location: Faro, Portugal
         start_date: 2021
-        end_date: thesis in final writing phase
-        summary: 
-          - I run end-to-end NGS workflows on Oxford Nanopore platform, rom sample to insight: building reproducible pipelines, calling variants in semi-autonomous organelles, profiling host-associated microbiomes across green algae, seagrass, mangroves and sediment, and recovering MAGs to investigate key taxa that drive host success.
+        end_date: current
+        summary: I run end-to-end NGS workflows on Oxford Nanopore platform, rom sample to insight: building reproducible pipelines, calling variants in semi-autonomous organelles, profiling host-associated microbiomes across green algae, seagrass, mangroves and sediment, and recovering MAGs to investigate key taxa that drive host success.
         highlights:
           - Established the first end-to-end NGS pipelines in a newly formed group within 6 months and turned them into reusable protocols, cutting onboarding time for new sequencing projects.
           - Cut per-sample sequencing costs by scaling WGS multiplexing from 3 to 24 samples per flowcell with no loss in data quality.
