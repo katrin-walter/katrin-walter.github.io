@@ -155,7 +155,7 @@ cv:
         issuer: SPAOM 2023
         icon: fa-solid fa-location-dot
 
-    Career Note:
+    Career_Note:
       - name: PhD Candidate, FCT-funded scholarship
         summary: Centre of Marine Sciences (CCMAR), University of Algarve
         highlights: 
