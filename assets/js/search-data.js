@@ -429,8 +429,8 @@ ninja.data = [{
           description: "Complete workflow from raw reads to taxonomic level",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
+            },},{id: "projects-phylogenetic-pipeline",
+          title: 'Phylogenetic pipeline',
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
