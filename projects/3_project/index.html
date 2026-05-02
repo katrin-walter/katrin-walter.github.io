@@ -2,25 +2,20 @@
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Katrin</span> Walter </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Katrin Walter </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">WGS-Analysis-Pipeline</h1> <p class="post-description">End-to-end WGS pipeline from raw reads to variant detection.</p> </header> <article> <h3 id="project-context">Project context</h3> <p>Whole genome sequencing of green algae (Chlorophyta), with the goal of expanding a sparse reference database and identifying polymorphisms and heteroplasmy. The dataset combined Nanopore long reads with Illumina short reads, allowing a hybrid approach. Detailed code and results are kept private until publication.</p> <h3 id="strategy">Strategy</h3> <p>Working with a non-model organism and limited reference material meant that standard pipelines did not apply out of the box. Each step required testing tools, comparing outputs, and adapting the workflow to the specific data type, whether organellar, nuclear, or microbial. The pipeline below reflects the path that worked, after several that did not.</p> <h3 id="pipeline-overview">Pipeline overview</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Quality cotrol. 
 Nanopore reads were filtered with NanoStat and NanoFilt, Illumina reads trimmed with Trimmomatic.
-A k-mer distribution check gave a first sense of genome size and contamination. ...
-
-Read filtering by component. 
+A k-mer distribution check gave a first sense of genome size and contamination.
+</code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Read filtering by component. 
 Organellar, nuclear, and microbial fractions were separated before assembly. 
 Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, supported by KAT 
-for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction. ...
-
-Assembly and polishing. 
+for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
+</code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Assembly and polishing. 
 Canu or SPAdes were used depending on the component, with hybrid input where applicable. 
-Nanopore-based assemblies were polished and reviewed in IGV alongside k-mer plots. ...
-
-Assembly quality assessment. 
-Completeness was checked with BUSCO against the matching lineage dataset before moving on. ...
-
-Annotation. 
+Nanopore-based assemblies were polished and reviewed in IGV alongside k-mer plots.
+</code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Assembly quality assessment. 
+Completeness was checked with BUSCO against the matching lineage dataset before moving on.
+</code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Annotation. 
 Features were annotated with GeSeq, BLAST, ARAGORN, tRNAscan-SE, and ORFfinder. 
-OGDraw visualized the organellar genome. ...
-
-Variant calling. BAM files from Samtools were passed into SNAPE-pooled, a Bayesian caller built for 
+OGDraw visualized the organellar genome.
+</code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Variant calling. BAM files from Samtools were passed into SNAPE-pooled, a Bayesian caller built for 
 pooled data. Called variants were cross checked in IGV to verify read-level support and rule out 
 mapping artefacts.
 </code></pre></div></div> <h3 id="tech-stack">Tech stack</h3> <p>Bash, Python, executed on an HPC environment</p> <h3 id="what-this-project-taught-me">What this project taught me</h3> <p>The hardest part was not running the tools, but choosing the right one for each step and recognizing when something was not adding up. Each setback pushed me to step back, try alternatives, and document what worked. Looking back, patience and persistence carried this project as much as the tools themselves.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
