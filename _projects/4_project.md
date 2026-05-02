@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: 16S rRNA Pipeline
+description: Complete workflow from raw reads to taxonomic level
+img: assets/img/ChatGPT Image 2. Mai 2026, 10_10_05.jpg
+importance: 4
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
