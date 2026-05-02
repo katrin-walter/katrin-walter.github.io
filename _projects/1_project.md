@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-### Goal. 
+### Goal 
 Generate high-quality whole-genome sequencing data for the green macroalga Caulerpa as the basis for an organellar reference genome database. Caulerpa is a non-model organism with no established sequencing protocol in our group, so the entire pipeline had to be built end-to-end.
 
 <div class="row">
@@ -26,7 +26,7 @@ Generate high-quality whole-genome sequencing data for the green macroalga Caule
       Caulerpa is a single-celled organism that can grow over a metre in size while remaining one giant cell with multiple nuclei. Despite its unicellular nature, it forms remarkably diverse morphologies (grape-, feather-, and leaf-like) and make it a research target across biomedicine, biotech, and the food industry.
 </div>
 
-### Wet lab. 
+### Wet lab
 Maintained live cultures under controlled temperature and light conditions, and processed silica-preserved samples from collaborators where only minimal tissue was available. DNA was extracted using a CTAB protocol that I adapted specifically for Caulerpa tissue, chosen over commercial extraction kits because CTAB removes polysaccharides and secondary metabolites typical of macroalgae far more reliably and yields the high-molecular-weight DNA that long-read sequencing requires.
 
 <div class="row">
@@ -45,7 +45,7 @@ Maintained live cultures under controlled temperature and light conditions, and 
     Wet-lab workflow: tissue homogenization, CTAB-based DNA extraction adapted for Caulerpa, followed by quality control via gel electrophoresis (fragment integrity) and Nanodrop (concentration and 260/280, 260/230 purity ratios) to ensure clean, high-molecular-weight DNA for downstream Nanopore library preparation.
 </div>
 
-### Sequencing. 
+### Sequencing
 Library preparation and barcoding followed the Oxford Nanopore protocol; whole-genome sequencing was performed on the MinION using flow cells. Based on expected total genome size, I calculated the optimal number of samples per flow cell and scaled multiplexing from 3 to 24 barcodes per run with no loss in data quality, significantly reducing per-sample sequencing cost.
 
 <div class="row">
@@ -61,9 +61,9 @@ Library preparation and barcoding followed the Oxford Nanopore protocol; whole-g
 </div>
 
 
-### Outcome. 
+### Outcome
 A reproducible end-to-end workflow from culture to sequencing-ready data, expanding a genus for which only 13 complete chloroplast genomes are currently available worldwide. The workflow has the potential to at least double this reference base and is transferable to other non-model marine organisms.
 
 
-### Stack. 
+### Stack
 Oxford Nanopore (MinION) · CTAB DNA extraction · multiplexed library preparation · controlled algal culturing.
