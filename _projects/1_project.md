@@ -37,7 +37,7 @@ Maintained live cultures under controlled temperature and light conditions, and 
         {% include figure.liquid loading="eager" path="assets/img/IMG_8368.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Lab 2023-11-27 18hr 27min2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IMG_5405 Kopie.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
