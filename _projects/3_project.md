@@ -57,7 +57,7 @@ Bash · Python · executed on an HPC environment
 The hardest part was not running the tools, but choosing the right one for each step and recognizing when something was not adding up. Each setback pushed me to step back, try alternatives, and document what worked. Looking back, patience and persistence carried this project as much as the tools themselves.
 
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/WGS_flow.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
