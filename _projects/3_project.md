@@ -7,12 +7,32 @@ importance: 3
 category: work
 ---
 
+### Project context
+Whole genome sequencing of green algae (Chlorophyta), with the goal of expanding a sparse reference database and identifying polymorphisms and heteroplasmy. The dataset combined Nanopore long reads with Illumina short reads, allowing a hybrid approach. Detailed code and results are kept private until publication.
+
+### Strategy
+Working with a non-model organism and limited reference material meant that standard pipelines did not apply out of the box. Each step required testing tools, comparing outputs, and adapting the workflow to the specific data type, whether organellar, nuclear, or microbial. The pipeline below reflects the path that worked, after several that did not.
+
+### Pipeline overview
+
+    Quality cotrol. 
+    Nanopore reads were filtered with NanoStat and NanoFilt, Illumina reads trimmed with Trimmomatic.
+    A k-mer distribution check gave a first sense of genome size and contamination.
+
+ 
+    
 
 
 
 
+Tech stack
+Bash, Python, executed on an HPC environment
 
 
+What this project taught me
+The hardest part was not running the tools, but choosing the right one for each step and recognizing when something was off. Every roadblock meant going back, testing alternatives, and documenting what worked. Patience and persistence carried this project as much as the tools themselves.
+
+    
     ---
     layout: page
     title: project
