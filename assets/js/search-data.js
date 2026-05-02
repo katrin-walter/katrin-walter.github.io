@@ -424,8 +424,8 @@ ninja.data = [{
           description: "End-to-end WGS pipeline from raw reads to variant detection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-16s-rrna-pipeline",
-          title: '16S rRNA Pipeline',
+            },},{id: "projects-microbiome-16s-pipeline",
+          title: 'Microbiome-16S-Pipeline',
           description: "Complete workflow from raw reads to taxonomic level",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
