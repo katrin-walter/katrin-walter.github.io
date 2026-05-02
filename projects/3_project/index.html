@@ -5,8 +5,8 @@ Nanopore reads were filtered with NanoStat and NanoFilt, Illumina reads trimmed 
 A k-mer distribution check gave a first sense of genome size and contamination.
 </code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Read filtering by component. 
 Organellar, nuclear, and microbial fractions were separated before assembly. 
-Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, supported by KAT 
-for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
+Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, 
+supported by KAT for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
 </code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Assembly and polishing. 
 Canu or SPAdes were used depending on the component, with hybrid input where applicable. 
 Nanopore-based assemblies were polished and reviewed in IGV alongside k-mer plots.
@@ -18,7 +18,7 @@ OGDraw visualized the organellar genome.
 </code></pre></div></div> <p>…</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Variant calling. BAM files from Samtools were passed into SNAPE-pooled, a Bayesian caller built for 
 pooled data. Called variants were cross checked in IGV to verify read-level support and rule out 
 mapping artefacts.
-</code></pre></div></div> <h3 id="tech-stack">Tech stack</h3> <p>Bash, Python, executed on an HPC environment</p> <h3 id="what-this-project-taught-me">What this project taught me</h3> <p>The hardest part was not running the tools, but choosing the right one for each step and recognizing when something was not adding up. Each setback pushed me to step back, try alternatives, and document what worked. Looking back, patience and persistence carried this project as much as the tools themselves.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+</code></pre></div></div> <h3 id="tech-stack">Tech stack</h3> <p>Bash · Python · executed on an HPC environment</p> <h3 id="what-this-project-taught-me">What this project taught me</h3> <p>The hardest part was not running the tools, but choosing the right one for each step and recognizing when something was not adding up. Each setback pushed me to step back, try alternatives, and document what worked. Looking back, patience and persistence carried this project as much as the tools themselves.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: page
 title: project
 description: a project with a background image
