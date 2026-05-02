@@ -1,6 +1,6 @@
 ---
 layout: page
-title: wet lab 16S rRNA Pipeline
+title: wet lab 16S rRNA 
 description: 16S rRNA Nanopore workflow from sample to sequencing data.
 img: assets/img/Gemini_Generated_Image_vxbcq9vxbcq9vxbc Kopie2.jpg
 importance: 2
