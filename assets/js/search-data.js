@@ -419,8 +419,8 @@ ninja.data = [{
           description: "End-to-end 16S rRNA Nanopore workflow from sample to sequencing data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-wgs-pipeline",
-          title: 'WGS Pipeline',
+            },},{id: "projects-wgs-analysis-pipeline",
+          title: 'WGS-Analysis-Pipeline',
           description: "End-to-end WGS pipeline from raw reads to variant detection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
