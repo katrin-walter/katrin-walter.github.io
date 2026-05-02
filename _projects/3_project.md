@@ -19,10 +19,11 @@ Working with a non-model organism and limited reference material meant that stan
     Nanopore reads were filtered with NanoStat and NanoFilt, Illumina reads trimmed with Trimmomatic.
     A k-mer distribution check gave a first sense of genome size and contamination.
 
+...
 
-    Read filtering by component. Organellar, nuclear, and microbial fractions were separated before assembly. Mapping against 
-    curated NCBI references with Minimap2 and Samtools formed the backbone, supported by KAT for eukaryotic filtering and the 
-    Metagenome-Atlas pipeline for the microbial fraction.
+    Read filtering by component. Organellar, nuclear, and microbial fractions were separated before assembly. 
+    Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, supported by KAT for 
+    eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
     
 
 
