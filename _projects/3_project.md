@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WGS Pipeline
+title: WGS-Analysis-Pipeline
 description: End-to-end WGS pipeline from raw reads to variant detection.
 img: assets/img/ChatGPT Image 2. Mai 2026, 10_04_27.jpg
 importance: 3
