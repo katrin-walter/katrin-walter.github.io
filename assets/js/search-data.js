@@ -414,8 +414,8 @@ ninja.data = [{
           description: "From Sample Extraction to Sequencing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-wet-lab-16s-rrna-pipeline",
-          title: 'wet lab 16S rRNA Pipeline',
+            },},{id: "projects-wet-lab-16s-rrna",
+          title: 'wet lab 16S rRNA',
           description: "16S rRNA Nanopore workflow from sample to sequencing data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
