@@ -23,8 +23,8 @@ Working with a non-model organism and limited reference material meant that stan
 
     Read filtering by component. 
     Organellar, nuclear, and microbial fractions were separated before assembly. 
-    Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, supported by KAT 
-    for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
+    Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, 
+    supported by KAT for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
 
 ...
 
@@ -50,7 +50,7 @@ Working with a non-model organism and limited reference material meant that stan
     mapping artefacts.
 
 ### Tech stack
-Bash, Python, executed on an HPC environment
+Bash · Python · executed on an HPC environment
 
 
 ### What this project taught me
