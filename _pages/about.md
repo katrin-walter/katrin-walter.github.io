@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Katrin Walter
 permalink: /
 subtitle: Molecular Biology · NGS & Bioinformatics
 
@@ -24,6 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate working at the intersection of molecular biology and bioinformatics, with focus on next-generation sequencing, microbiome analysis, and pipeline development. I am currently transitioning from academic research to industry in computational biology.
+I am a biologist and PhD candidate working at the intersection of molecular biology and bioinformatics, with focus on next-generation sequencing, microbiome analysis, and pipeline development.
 
+After years in academic research, I want to bring my work closer to where it is applied. What motivates me is solving real problems end to end and seeing the results being used.
+
+I offer a strong combination: a molecular biologist who also works confidently with bioinformatics. I understand data from the bench to the terminal, and I can translate between both worlds, so wet lab teams, analysts, and decision-makers actually understand each other.
+
+Outside of work, I recharge with family and friends, I love exploring new places with my dog or running small science experiments for my younger cousin.
+
+If your team is solving problems at this intersection, let's talk.
 Feel free to reach out via kwalter@mailbox.org or check my projects on https://github.com/katrin-walter.
+
