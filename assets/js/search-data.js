@@ -409,8 +409,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-wet-lab-wgs-pipeline",
-          title: 'wet lab WGS Pipeline',
+          section: "News",},{id: "projects-wet-lab-wgs",
+          title: 'wet lab WGS',
           description: "From Sample Extraction to Sequencing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
