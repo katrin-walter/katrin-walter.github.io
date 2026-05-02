@@ -416,7 +416,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-wet-lab-16s-rrna-pipeline",
           title: 'wet lab 16S rRNA Pipeline',
-          description: "End-to-end 16S rRNA Nanopore workflow from sample to sequencing data.",
+          description: "16S rRNA Nanopore workflow from sample to sequencing data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-wgs-analysis-pipeline",
