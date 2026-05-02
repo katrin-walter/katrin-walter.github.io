@@ -19,31 +19,31 @@ Working with a non-model organism and limited reference material meant that stan
     Nanopore reads were filtered with NanoStat and NanoFilt, Illumina reads trimmed with Trimmomatic.
     A k-mer distribution check gave a first sense of genome size and contamination.
 
-...
+---
 
     Read filtering by component. 
     Organellar, nuclear, and microbial fractions were separated before assembly. 
     Mapping against curated NCBI references with Minimap2 and Samtools formed the backbone, 
     supported by KAT for eukaryotic filtering and the Metagenome-Atlas pipeline for the microbial fraction.
 
-...
+---
 
     Assembly and polishing. 
     Canu or SPAdes were used depending on the component, with hybrid input where applicable. 
     Nanopore-based assemblies were polished and reviewed in IGV alongside k-mer plots.
 
-...
+---
 
     Assembly quality assessment. 
     Completeness was checked with BUSCO against the matching lineage dataset before moving on.
 
-...
+---
 
     Annotation. 
     Features were annotated with GeSeq, BLAST, ARAGORN, tRNAscan-SE, and ORFfinder. 
     OGDraw visualized the organellar genome.
 
-...
+---
 
     Variant calling. BAM files from Samtools were passed into SNAPE-pooled, a Bayesian caller built for 
     pooled data. Called variants were cross checked in IGV to verify read-level support and rule out 
