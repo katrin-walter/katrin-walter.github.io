@@ -1,6 +1,6 @@
 ---
 layout: page
-title: wet lab WGS Pipeline
+title: wet lab WGS
 description: From Sample Extraction to Sequencing
 img: assets/img/Labor_1.jpg
 importance: 1
